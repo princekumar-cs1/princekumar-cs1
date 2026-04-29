@@ -1,16 +1,33 @@
-## Hi there 👋
+# Hi there 👋 I'm Prince Kumar
 
-<!--
-**princekumar-cs1/princekumar-cs1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 About Me
+🎓 B.Tech Student  
+💻 Learning Programming, DSA & Web Development  
+🎯 Goal: Become a Software Engineer / IAS Officer  
+🌱 Currently improving skills every day  
 
-Here are some ideas to get you started:
+## 🛠️ Skills
+- C++
+- Python
+- HTML
+- CSS
+- JavaScript
+- Data Structures & Algorithms
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📚 Currently Learning
+- Web Development
+- Git & GitHub
+- Problem Solving
+- Competitive Programming
+
+## 📈 GitHub Stats
+![Prince's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
+
+## 🔥 Streak Stats
+![GitHub Streak](https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=tokyonight)
+
+## 📫 Connect With Me
+- GitHub: https://github.com/YOUR_USERNAME
+
+## ⚡ Fun Fact
+I believe consistency can beat talent.
