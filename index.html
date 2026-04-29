@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prince Kumar | Software Engineer</title>
+<title>Prince Kumar | Portfolio</title>
 
 <style>
 *{
@@ -11,39 +11,70 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 font-family:Arial, sans-serif;
+scroll-behavior:smooth;
 }
 
 body{
 background:#0f172a;
 color:white;
-line-height:1.6;
 }
 
-header{
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#111827;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
 padding:80px 10%;
-text-align:center;
-background:linear-gradient(135deg,#1e293b,#0f172a);
+flex-wrap:wrap;
 }
 
-header h1{
+.hero-text{
+max-width:550px;
+}
+
+.hero h1{
 font-size:52px;
 margin-bottom:10px;
 }
 
-header p{
+.hero p{
 font-size:22px;
 color:#94a3b8;
+margin-bottom:20px;
 }
 
 .btn{
 display:inline-block;
-margin-top:25px;
 padding:12px 28px;
 background:#38bdf8;
 color:black;
 text-decoration:none;
 font-weight:bold;
 border-radius:8px;
+margin-right:10px;
+}
+
+.photo img{
+width:260px;
+height:260px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #38bdf8;
 }
 
 section{
@@ -70,7 +101,7 @@ transform:translateY(-5px);
 
 .skills{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
 gap:15px;
 }
 
@@ -87,30 +118,42 @@ padding:30px;
 background:#111827;
 color:#94a3b8;
 }
-
-a{
-color:#38bdf8;
-text-decoration:none;
-}
 </style>
 </head>
 
 <body>
 
-<header>
+<nav>
+<h3>Prince Kumar</h3>
+<div>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<div class="hero">
+<div class="hero-text">
 <h1>Prince Kumar</h1>
 <p>Aspiring Software Engineer | Frontend Developer | Problem Solver</p>
-<a href="#" class="btn">Download Resume</a>
-</header>
+<a href="#" class="btn">Resume</a>
+<a href="https://github.com/princekumar-cs1" class="btn">GitHub</a>
+</div>
 
-<section>
+<div class="photo">
+<img src="photo.jpg" alt="Prince Kumar">
+</div>
+</div>
+
+<section id="about">
 <h2>About Me</h2>
 <div class="card">
-<p>I am a Computer Science student passionate about building websites, solving DSA problems, and creating real-world tech projects. Currently learning full-stack development and preparing for internships.</p>
+I am a Computer Science student passionate about coding, DSA, web development and real-world projects. Currently learning full-stack development and preparing for internships.
 </div>
 </section>
 
-<section>
+<section id="skills">
 <h2>Skills</h2>
 <div class="skills">
 <div class="skill">HTML</div>
@@ -122,37 +165,37 @@ text-decoration:none;
 </div>
 </section>
 
-<section>
+<section id="projects">
 <h2>Projects</h2>
 
 <div class="card">
 <h3>Smart Helmet for Coal Miners</h3>
-<p>IoT safety helmet using sensors for gas, temperature, humidity and alerts.</p>
+<p>IoT safety helmet using sensors for gas, humidity and alerts.</p>
 </div>
 
 <div class="card">
 <h3>Motion Sensor Security System</h3>
-<p>Arduino based PIR sensor project that detects movement and activates buzzer + LED.</p>
+<p>PIR sensor detects movement and activates buzzer + LED.</p>
 </div>
 
 <div class="card">
 <h3>Portfolio Website</h3>
-<p>Personal responsive portfolio hosted on GitHub Pages.</p>
+<p>Responsive portfolio hosted using GitHub Pages.</p>
 </div>
 
 </section>
 
-<section>
+<section id="contact">
 <h2>Contact</h2>
 <div class="card">
 <p>Email: kumarprince1w3@gmail.com</p>
-<p>Phone: +91 XXXXX XXXXX</p>
 <p>GitHub: github.com/princekumar-cs1</p>
+<p>Location: Greater Noida</p>
 </div>
 </section>
 
 <footer>
-©️ 2026 Prince Kumar | Software Engineer Portfolio
+©️ 2026 Prince Kumar | Portfolio
 </footer>
 
 </body>
